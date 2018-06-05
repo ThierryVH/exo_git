@@ -1,7 +1,7 @@
 ## Liste des commandes à voir pour s'initier au versionning avec Git
 
   - git init
-	- git status
+  - git status
   - git add
   - git commit
   - git pull

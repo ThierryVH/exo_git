@@ -1,4 +1,4 @@
-##Liste des commandes à voir pour s'initier au versionning avec Git
+## Liste des commandes à voir pour s'initier au versionning avec Git
 
   - git init
   - git add

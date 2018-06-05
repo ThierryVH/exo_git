@@ -129,6 +129,47 @@ juste après la ligne
 - Listez les commits
 - Fusionnez le contenu de la troisième branche créée avec la branche **css**. Un problème? Un conflit? À vous de le résoudre.
 - Une fois le conflit résolu, commitez les changements
-- Créez un repository sur github
+- Créez un repository sur github (donnez lui le nom que vous voulez)
 - Ajouter la remote à votre dossier (voir git remote add)
 - Envoyer votre travail sur github
+
+### Défi n°5
+- Déplacez-vous dans le dossier **sites/lab/exo_git**
+- Créez un dossier **defi_git_5** et déplacez-vous y
+- Créez le fichier **index.html** et ajoutez-y le code suivant
+```<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Défi Git 5</title>
+</head>
+<body>
+
+	<p>Premier paragraphe</p>
+
+</body>
+</html>
+```
+- Faites un commit pour enregistrer les modifications
+- Créez une branche **test**
+- Vous êtes toujours sur la branche **master**. Modifiez le fichier **index.html** en rajoutant un paragraphe
+- Faites un commit pour enregistrer les modifications
+- Déplacez-vous sur la branche **test**, et fusionnez-là avec la master
+- Créez un fichier **style.css**
+- Faites un commit pour enregistrer les modifications
+- Créez une branche **css** et déplacez-vous dessus
+- Supprimez la branche **test**
+- Créez un repository sur github (donnez lui le nom que vous voulez)
+- Ajoutez la remote à votre dossier
+- Envoyer votre travail sur github
+- Sur github directement, modifiez les fichiers **index.html** et **style.css** en y ajoutant le code que vous voulez
+- Revenez sur votre éditeur de texte en local (Atom, Sublime, etc.) et faites également des modifications sur les fichiers **index.html** et **style.css**
+- Faites un commit
+- Envoyez votre travail sur github. Un problème? À vous de le résoudre
+- Modifiez à nouveau votre fichier **index.html** en supprimant le premier paragraphe et en y ajoutant un nouveau paragraphe.
+- Faites un commit
+- Listez les commits
+- Afficher les différences entre votre travail actuel, et le travail enregistré lors du premier commit (voir **git diff**)
+- Même chose entre votre travail actuel et celui enregistré lors du troisième commit

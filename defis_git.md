@@ -54,18 +54,23 @@
 - Déplacez-vous dans le dossier **sites/lab/exo_git**
 - Supprimez les dossiers **defi_git_1** et **defi_git_2**
 - Créez un dossier **defi_git** et déplacez-vous y
-- Listez les branches du dépôt et regardez sur laquelle vous vous trouvez
 - Créez 2 fichiers:
   - **Fichier1**
   - **Fichier2**
+- Ajoutez les 2 fichiers aux éléments qui doivent être suivis
+- Enregistrez les changements (les valider avec un **commit**)
+- Listez les branches du dépôt et regardez sur laquelle vous vous trouvez
 - Créez une branche **test** et déplacez-vous y
-- Ajoutez le **Fichier2** aux éléments qui doivent être suivis
+- Listez le contenu du dossier
+- Créez 2 nouveaux fichiers
+- Déplacez-vous sur la branche **master**
 - Enregistrez les changements (les valider avec un **commit**)
 - Listez le contenu du dossier
-- Déplacez-vous sur la branche **master**
-- Listez le contenu du dossier. Pourquoi les fichiers n'existent pas sur cette branche alors qu'ils y ont été créés?
-- Fusionnez le contenu de la branche **test** sur la branche **master**
+- Déplacez-vous sur la branche **test**
+- Listez le contenu du dossier. Pourquoi les 2 nouveaux fichiers n'existent pas sur cette branche alors qu'ils y ont été créés?
+- Fusionnez le contenu de la branche **master** sur la branche **test**
 - Listez le contenu du dossier
+- Déplacez-vous sur la branche **master**
 - Supprimez la branche **test**
 - Listez les branches du dépôt
 - Ajoutez du texte au **Fichier1** et enregistrez les modifications
